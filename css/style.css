@@ -112,3 +112,47 @@ header {
 }
 
 /* -- failure area end -- */
+
+/* -- plan area start -- */
+
+.plan-wrapper h3 {
+  text-align: center;
+}
+
+.plan-block-one img {
+  display: inline-block;
+  width: 92px;
+}
+
+.plan-block-one h4 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #151414;
+  margin: 13px 0px;
+}
+
+.plan-block-one p {
+  font-size: 25px;
+  font-weight: 500;
+  color: #737272;
+}
+
+.plan-block-one {
+  text-align: center;
+}
+
+.plan-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.plan-block-one {
+  margin-top: 60px;
+}
+
+#plan {
+  padding-top: 100px;
+}
+
+/* -- plan area end -- */
