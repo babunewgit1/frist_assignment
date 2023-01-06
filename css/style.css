@@ -156,3 +156,51 @@ header {
 }
 
 /* -- plan area end -- */
+
+/* -- tour area start -- */
+.tour-wrapper h3 {
+  text-align: center;
+}
+
+.tour-block {
+  display: flex;
+  gap: 20px;
+}
+
+.tour-one {
+  width: 25%;
+}
+
+.tour-one-img img {
+  display: block;
+  width: 100%;
+}
+
+#tour {
+  padding-top: 100px;
+}
+
+.tour-one {
+  margin-top: 50px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 3px -1px rgba(0, 0, 0, 0.5);
+}
+
+.tour-one-detals h4 {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 15px 0px;
+}
+
+.tourlink {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.tourlink a {
+  background-color: #ff2e60;
+  color: #fff;
+}
+
+/* -- tour area end -- */
