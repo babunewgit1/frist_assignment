@@ -204,3 +204,115 @@ header {
 }
 
 /* -- tour area end -- */
+
+/* -- call area start -- */
+.call-wrapper {
+  background: url(../images/watch.png),
+    linear-gradient(90deg, #005fac 0%, rgba(0, 95, 172, 0) 100%);
+  padding: 60px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 12px;
+  background-blend-mode: multiply;
+}
+
+.call-wrapper h3 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 25px;
+}
+
+#call {
+  padding: 100px 0px;
+}
+
+/* -- call area end -- */
+
+/* footer area start */
+footer {
+  background: #151414;
+  padding: 100px 0px;
+}
+
+.footer-wrapper {
+  display: flex;
+}
+
+.footer-left h3 {
+  font-size: 45px;
+  font-weight: 700;
+  color: #f8f8f8;
+}
+
+.footer-left p {
+  color: #fff;
+  margin-top: 20px;
+}
+
+.footer-left > ul li a {
+  display: inline-block;
+  color: #fff;
+  margin-top: 25px;
+}
+
+.social-link {
+  margin-top: 30px;
+}
+
+.social-link ul li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.social-link ul li a img {
+  display: inline-block;
+  width: 40px;
+}
+
+.footer-right,
+.footer-left {
+  width: 50%;
+}
+
+.footer-form {
+  width: 325px;
+  margin-left: auto;
+}
+
+.footer-form h4 {
+  font-weight: 600;
+  color: #fff;
+  font-size: 25px;
+}
+
+.footer-form input[type="email"] {
+  display: block;
+  width: 100%;
+  font-weight: 400;
+  color: #fff;
+  font-size: 18px;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  padding: 18px;
+  outline: none;
+  margin-top: 35px;
+  margin-bottom: 15px;
+}
+
+.footer-form input[type="submit"] {
+  display: inline-block;
+  font-weight: 600;
+  color: #fff;
+  font-size: 20px;
+  background-color: #005fac;
+  border-radius: 8px;
+  padding: 18px 35px;
+  outline: none;
+  border: 0;
+  font-family: "Inter", sans-serif;
+}
+
+/* footer area end */
