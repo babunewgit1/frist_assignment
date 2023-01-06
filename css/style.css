@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -33,6 +34,12 @@ a {
   padding: 20px 25px;
 }
 
+.heading {
+  font-size: 40px;
+  font-weight: 700;
+  color: #151414;
+}
+
 /* -- header area start -- */
 header {
   background-image: url(../images/banner3.png);
@@ -61,3 +68,47 @@ header {
 }
 
 /* -- header area end -- */
+
+/* -- failure area start -- */
+
+#failure {
+  padding-top: 100px;
+}
+
+.failure-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.failure-left,
+.failure-right {
+  width: 50%;
+}
+
+.failure-right {
+  padding-left: 70px;
+}
+
+.failure-left img {
+  display: block;
+  width: 100%;
+}
+
+.failure-right p {
+  font-size: 16px;
+  color: #444343;
+  margin: 25px 0px;
+}
+
+.failure-right ul li {
+  color: #444343;
+  margin-bottom: 8px;
+}
+
+.failure-right ul li span {
+  color: #16d887;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* -- failure area end -- */
